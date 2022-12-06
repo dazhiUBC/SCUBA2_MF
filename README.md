@@ -4,7 +4,7 @@ This repository contains the set of useful python scripts for the overdensity an
 Content of the main repository:
 - crop_map.py: Crop the calibrated map into an appropriate size, in order to remove the noisy data on the outskirts.
 - MF.py: Apply a matched filter (optimized for point sources) on the calibrated science map and do the source extraction through a simple clean-like algorithm.
-- sim_proto.py: Generate 10,000 mock catalogs with a hard-coded overdensity. Using the blank field mock maps to estimate the overdensity is required.
+- sim_proto.py: Generate 10,000 mock catalogs with a hard-coded overdensity. Use the blank field mock maps to estimate the overdensity is required.
 - completeness.py: Estimate the completeness factor and deboosting value from mock catalogs. 
 - fidelity.py: Calculate the average number of spurious sources as a function of SNR, flux, or noise.
 - statistic.py: Show how the deboosting, completeness, and fidelity factors vary as a function of SNR.

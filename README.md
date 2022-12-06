@@ -17,4 +17,4 @@ Content in blank:
 
 This repository is still under construction. We plan to add another detail instruction and a jupyter notebook to demonstrate how our codes work.
 
-Please feel free to try our codes on other single-dish data of any protocluster field. I am curious to see how the SMG distribution of other protocluster field compare with the result in our paper. If you have any issue, please contact me at dazzh@space.dtu.dk
+Please feel free to try our codes on other single-dish data of any protocluster field. We are curious to see how the SMG distribution of other protocluster field compare with the result in our paper. If you have any issue, please contact us at dazzh@space.dtu.dk

@@ -6,7 +6,7 @@ Content of the main repository:
 - crop_map.py: Crop the calibrated map into an appropriate size, in order to remove the noisy data on the outskirts.
 - MF.py: Apply a matched filter (optimized for point sources) on the calibrated science map and do the source extraction through a simple clean-like algorithm.
 - sim_proto.py: Generate 10,000 mock catalogs with a hard-coded overdensity. Use the blank field mock maps to estimate the overdensity is required.
-- completeness.py: Estimate the completeness factor and deboosting value from mock catalogs. 
+- new_comp.py: Estimate the completeness factor and deboosting value from mock catalogs. 
 - fidelity.py: Calculate the average number of spurious sources as a function of SNR, flux, or noise.
 - statistic.py: Show how the deboosting, completeness, and fidelity factors vary as a function of SNR.
 - offset.py: Estimate the position offsets as a function of SNR.
@@ -16,7 +16,7 @@ Content of the main repository:
 Content in blank:
 - s850_generate.py: Generate 10,000 mock catalogs based on the blank field number counts (Geach et al. 2017) with the same noise distribution as the calibrated data, which is used to estimate the overdensity of the protocluster field.
 
-This repository is still under construction. We plan to add another detail instruction and a jupyter notebook to demonstrate how our codes work.
+This repository is still under construction. We plan to publish on pypi and a jupyter notebook to demonstrate how our codes work soon.
 
 Note: we realize that using "pure noise map" to obtain contamination rate will lead to a severe underestimation. It is because the presence of astronomical sources will also cause more spurious sources in the map. We have another treatment to overcome this issue. However, to have a fair comparison with Geach+17/Simpson+19, the current method is still suggested.
 

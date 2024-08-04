@@ -16,7 +16,7 @@ Content of the main repository:
 Content in blank:
 - s850_generate.py: Generate 10,000 mock catalogs based on the blank field number counts (Geach et al. 2017) with the same noise distribution as the calibrated data, which is used to estimate the overdensity of the protocluster field.
 
-This repository is still under construction. We plan to publish on pypi and a jupyter notebook to demonstrate how our codes work soon.
+This repository is still under construction. We plan to publish it on pypi and make a jupyter notebook to demonstrate how our codes work soon.
 
 Note: we realize that using "pure noise map" to obtain contamination rate will lead to a severe underestimation. It is because the presence of astronomical sources will also cause more spurious sources in the map. We have another treatment to overcome this issue. However, to have a fair comparison with Geach+17/Simpson+19, the current method is still suggested.
 
